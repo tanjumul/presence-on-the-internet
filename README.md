@@ -12,4 +12,4 @@ You can **clone** the repository to your local machine or **fork** it in your gi
 https://github.com/tanjumul/presence-on-the-internet.git
 ```
 
-Designed & developed with Luv by **[tanjumul](https://www.github.com/tanjumul)** 
+Designed & developed with Luv by **[tanjumul](https://x.com/Tanjumulsiam)** 
