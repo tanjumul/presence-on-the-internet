@@ -1,2 +1,2 @@
 # presence-on-the-internet
-React , raw:CSS, Gsap , Nginx  &amp; AWS. 
+HTML , raw:CSS, Gsap , Nginx  &amp; AWS. 
