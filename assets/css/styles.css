@@ -177,7 +177,7 @@ img {
 
 /*=============== HEADER & NAV ===============*/
 .header{
-  position: fixed;
+  position:fixed;
   width: 100%;
   top: 0;
   left: 0;
@@ -300,6 +300,38 @@ img {
 
 
 /*=============== HOME SECTION ===============*/
+
+.home{ 
+  position:relative; 
+}
+
+.home .blob-small:nth-child(1){ 
+top: 2rem; 
+left: 2rem; 
+}
+.home .blob-small:nth-child(2){ 
+top:11rem; 
+right:-4rem; 
+}
+
+.home__container{ 
+  padding-block: 2.5rem 3rem;
+  row-gap: 7rem;
+}
+
+.home__data{ 
+  text-align: center;
+  color:var(--white-color); 
+}
+
+.home__subtitle{ 
+  font-size:var(--h3-font-size); 
+  margin-bottom: 1rem;
+}
+.home__title{
+  font-size: var(--biggest-font-size);
+  margin-bottom: 0.5rem;
+}
 
 
 /* Circular text animation */
