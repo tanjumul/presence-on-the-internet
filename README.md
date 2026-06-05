@@ -9,7 +9,7 @@ You can **clone** the repository to your local machine or **fork** it in your gi
 
 ```bash
 # Clone the repository using HTTPS
-https://github.com/tanjumul/presence-on-the-internet.git
+
 ```
 
-Designed & developed with Luv by **[tanjumul](https://x.com/Tanjumulsiam)** 
+Designed & developed with Luv by **[tanjumul](https://www.github.com/tanjumul)** 

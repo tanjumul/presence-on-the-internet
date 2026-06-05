@@ -420,11 +420,37 @@ display:grid;
   position: absolute;
   width:100px; 
   height: 100px;
+  animation:rotate-text 9s linear infinite; 
+
+}
+.home__text span { 
+  position : absolute; 
+  transform-origin:0 46px;
+  left : 50px; 
+  top: 5px; 
+
 }
 
+.home__images .blob-big{
+
+  top: -2.5rem; 
+  left:0rem;
+  right:0; 
+  justify-self: center;
+}
 
 /* Circular text animation */
 
+@keyframes rotate-text{
+  0%{
+    transform: rotate(0);
+  }
+  
+  100%{
+    transform: rotate(360deg)
+  }
+
+}
 
 /*=============== BUTTON ===============*/
 

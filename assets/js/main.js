@@ -29,6 +29,21 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=============== HOME TEXT CIRCULAR ===============*/
 
+const homeText = document.getElementById('home-text'),  
+  letters = homeText.textContent.trim().split(''), //here i'm spliting the words by spaces
+  angleStep = 360/letters.length //angle for each character ; 
+  homeText.textContent = ''; 
+
+  //now iterate through each characters : 
+  letters.forEach((char,i)=>{
+    const span = document.createElement('span'); // will create span for each letter iteration
+  span.textContent = char; //inserting each characters in to the span
+  span.style.transform = `rotate(${i * angleStep}deg)`; //rotating each letters based on it's index 
+  homeText.appendChild(span); //appends the span to the main container
+  
+
+
+  })
 
 /*=============== HOME TYPED JS ===============*/
 
