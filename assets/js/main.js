@@ -46,7 +46,14 @@ const homeText = document.getElementById('home-text'),
   })
 
 /*=============== HOME TYPED JS ===============*/
+const typedHome = new Typed('#home-typed', {
+  strings:['Software Engineer', 'Researcher'], 
+  typeSpeed :60, 
+  backspeed:30, 
+  backDelay:2000, 
+  loop:true,
 
+})
 
 /*=============== CHANGE HEADER STYLES ===============*/
 

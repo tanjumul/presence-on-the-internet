@@ -503,6 +503,12 @@ display:grid;
   .nav__menu{
     width: 50%;
   }
+  .home__container{
+    grid-template-columns: 400px;
+    justify-content: center;
+    
+  }
+
 }
 
 /* For large devices <> */
@@ -517,7 +523,16 @@ display:grid;
   .section__title{
     margin-bottom: 3rem;
   }
-
+.blob-small{
+  width: 150px;
+  height: 150px;
+  filter:blur(150px);
+}
+.blob-big{
+  width: 250px;
+  height: 250px;
+  filter: blur(150px);
+}
   .nav{
     height: calc(var(--header-height) + 2rem);
     align-items: center;
