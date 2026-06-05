@@ -47,7 +47,7 @@ const homeText = document.getElementById('home-text'),
 
 /*=============== HOME TYPED JS ===============*/
 const typedHome = new Typed('#home-typed', {
-  strings:['Software Engineer', 'Researcher'], 
+  strings:['Software Engineer', 'Researcher','Jäger'], 
   typeSpeed :60, 
   backspeed:30, 
   backDelay:2000, 

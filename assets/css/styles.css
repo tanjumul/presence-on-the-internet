@@ -526,7 +526,7 @@ display:grid;
 .blob-small{
   width: 150px;
   height: 150px;
-  filter:blur(150px);
+  filter:blur(100px);
 }
 .blob-big{
   width: 250px;
@@ -550,7 +550,47 @@ display:grid;
     column-gap: 4rem;
   }
 
+  .home__container{
+    grid-template-columns: 800px;
+
+  }
+  .home__subtitle{
+    font-size: var(--h2-font-size);
+    margin-bottom: 2rem;
+
+  }
+  .home__name{
+    margin-bottom: 1rem;
   
+  }
+  .home__box-1,
+  .home__box-2,
+  .home__box3{
+   width: 250px;
+   height: 300px;
+  }
+
+  .home__img{
+    width: 230px;
+  }
+  .home__circle{
+    right:-3rem;
+    bottom:-1.5rem; 
+
+  }
+
+  .home__images .blob-big{
+    top:-8rem;
+    
+  }
+  .home .blob-small:nth-child(1){
+      top:-2.5rem; 
+      left:-1.5rem;
+  }
+  .home .blob-small:nth-child(2){
+    top:25rem;
+
+  }
 }
 
 /* For 2K resolutions <> */
